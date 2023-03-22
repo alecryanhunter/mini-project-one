@@ -8,11 +8,13 @@
 
     <body>
         <header>
-            <ul>
-                <li><a href="https://github.com/alecryanhunter">Github</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li>About Me</li>
-            </ul>
+            <nav>
+                <ul>
+                    <li><a href="https://github.com/alecryanhunter">Github</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a>About Me</a></li>
+                </ul>
+            </nav>
         </header>
 
         <main>
@@ -24,16 +26,16 @@
                     <figcaption>A visual representation of my mood.</figcaption>
                 </figure>
             </section>
-            <!-- Contact Me Form Section -->
+            <!-- Contact Form Section -->
             <section id="contact" class="contact">
-                <h2>Contact Me!</h2>
-                <p>Your Name</p>
-                <input type="text">
-                <br>
-                <p>Email</p>
-                <input type="text">
-                <br>
-                <button>Send</button>
+                <form action="">
+                    <h2>Contact Me!</h2>
+                    <label for="contact-name">Name</label>
+                    <input type="text" placeholder="Name" id="contact-name">
+                    <label for="contact-email">Email</label>
+                    <input type="email" placeholder="Email" id="contact-email">
+                    <button>Send</button>
+                </form>
             </section>
         </main>
 
